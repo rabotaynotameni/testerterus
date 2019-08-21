@@ -37,11 +37,11 @@ class TaskController extends Controller
     public function store(Request $request, Project $project)
     {
 
-        $validator = $request->validate([
+        $request->validate([
             'description' => 'required|min:4'
         ]);
 
-        $project->NambahTask($validator);
+        $project->NambahTask(request('description'));
         
         return back();
     }

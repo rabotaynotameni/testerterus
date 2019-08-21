@@ -27,4 +27,6 @@ class Project extends Model
         $this->tasks()->create(compact('description'));
     }
 
+
+    
 }
