@@ -10,4 +10,21 @@ class Task extends Model
     {
         return $this->belongsTo('App\Project', 'project_id');
     }
+
+
+    protected $hidden = [
+        'id','project_id'
+    ];
+
+
+    protected $fillable = [
+        'project_id','description'
+    ];
+
+    protected $guarded = [
+        'id'
+    ];
+
+   
+
 }

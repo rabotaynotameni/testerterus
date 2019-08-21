@@ -17,3 +17,5 @@ Route::get('/', function () {
 
 
 Route::resource('/project', 'ProjectController');
+Route::post('/task/{project}','TaskController@store')->name('createtask');
+Route::delete('/task/{task}', 'TaskController@destroy')->name('destroyTheTask');
