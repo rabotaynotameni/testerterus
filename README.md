@@ -11,5 +11,6 @@ Aplikasi ini hanya testing yang berisi :
 <li> Sweet Alert </li>
 <li> Bootstrap CSS </li>
 <ul>
-
-<footer> Makasi :) @ Bayu Wijaksana</footer>
+<hr>
+<br>
+<h4> Makasi :) @ Bayu Wijaksana</h4>
